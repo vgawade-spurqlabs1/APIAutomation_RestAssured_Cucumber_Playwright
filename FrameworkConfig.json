@@ -1,0 +1,14 @@
+{ 
+  "BaseUrl": "https://app.sample.com", 
+  "UserEmail": "************.com", 
+  "UserPassword": "#############", 
+  "ExecutionBrowser": "chromium", 
+  "Resources": "/src/test/resources/", 
+  "Query_Parameters": "src/test/resources/Query_Parameters/", 
+  "Request_Bodies": "src/test/resources/Request_Bodies/", 
+  "Schema": "src/test/resources/Schema/", 
+  "TestResultsDir": "test-output/", 
+  "headers": "src/test/resources/headers/", 
+  "DealDetails": "DealDetails.json", 
+  "UploadDocUrl": "/api/v1/documents" 
+}

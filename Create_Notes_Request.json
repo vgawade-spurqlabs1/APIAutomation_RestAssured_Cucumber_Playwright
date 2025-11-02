@@ -1,0 +1,8 @@
+{
+  "note": "This is Note 1",
+  "typeOfNote": "General note",
+  "followUpDate": "",
+  "investorUserIds": [
+    "{investorId}"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "authorName": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        },
+        "typeOfNote": {
+          "type": "string"
+        },
+        "followUpDate": {
+          "type": "string"
+        },
+        "pinned": {
+          "type": "boolean"
+        },
+        "users": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "userId": {
+                  "type": "string"
+                },
+                "designation": {
+                  "type": "string"
+                },
+                "fullName": {
+                  "type": "string"
+                },
+                "userEmail": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "id",
+                "userId",
+                "designation",
+                "fullName",
+                "userEmail"
+              ]
+            }
+          ]
+        },
+        "createdAt": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "authorName",
+        "note",
+        "typeOfNote",
+        "followUpDate",
+        "pinned",
+        "users",
+        "createdAt"
+      ]
+    }
+  ]
+}
